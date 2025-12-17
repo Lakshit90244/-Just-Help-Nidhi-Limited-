@@ -1,4 +1,4 @@
-// MongoDB Keep-Alive Script - Connection को हमेशा active रखता है
+// MongoDB Keep-Alive Script - Keeps connection active
 const mongoose = require('mongoose');
 
 const MONGODB_URI = 'mongodb+srv://pallavjoshi:EHjf5Hliz61jvVXb@cluster0.lwadmzq.mongodb.net/finance-website?retryWrites=true&w=majority';
