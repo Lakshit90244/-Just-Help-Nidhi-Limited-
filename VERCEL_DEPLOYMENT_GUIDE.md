@@ -5,20 +5,20 @@
 ### **Step 1: GitHub Repository बनाएं**
 
 #### **1.1 GitHub Account**
-- **GitHub.com** पर जाएं
-- **Sign up** करें (अगर account नहीं है)
-- **Sign in** करें
+- **GitHub.com** 
+- **Sign up**  (account)
+- **Sign in** 
 
 #### **1.2 New Repository**
-- **"New Repository"** button पर click करें
-- **Repository name**: `savara-nidhi-website` (या कोई भी name)
+- **"New Repository"** button click 
+- **Repository name**: `savara-nidhi-website` (name)
 - **Description**: "सावरा Just Help Nidhi Limited - Official Website"
-- **Public** select करें (free hosting के लिए)
-- **Create Repository** पर click करें
+- **Public** select  (free hosting )
+- **Create Repository** click 
 
-### **Step 2: Code को GitHub पर Upload करें**
+### **Step 2: Code को GitHub पर Upload **
 
-#### **2.1 Git Initialize (Command Prompt में):**
+#### **2.1 Git Initialize (Command Prompt ):**
 ```bash
 cd finance-website-build
 git init
@@ -26,20 +26,20 @@ git add .
 git commit -m "Initial commit - सावरा Nidhi Website"
 ```
 
-#### **2.2 GitHub से Connect:**
+#### **2.2 GitHub Connect:**
 ```bash
 git remote add origin https://github.com/YOUR_USERNAME/savara-nidhi-website.git
 git branch -M main
 git push -u origin main
 ```
 
-**Note**: `YOUR_USERNAME` को अपना GitHub username से replace करें
+**Note**: `YOUR_USERNAME` GitHub username  replace 
 
-### **Step 3: Vercel पर Deploy करें**
+### **Step 3: Vercel पर Deploy **
 
 #### **3.1 Vercel Account**
-- **Vercel.com** पर जाएं
-- **"Sign up with GitHub"** पर click करें
+- **Vercel.com** 
+- **"Sign up with GitHub"**  click 
 - GitHub account से login करें
 
 #### **3.2 Import Project**

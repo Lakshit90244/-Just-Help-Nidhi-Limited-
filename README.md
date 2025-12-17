@@ -60,8 +60,82 @@ finance-website-build/
 └── public/                # Static assets
 ```
 
-## Status
+## 🚀 Live Website
 
-✅ **FULLY OPERATIONAL**
+- **Website**: [https://savara-nidhi-website.vercel.app](https://savara-nidhi-website.vercel.app)
+- **Admin Panel**: [https://savara-nidhi-website.vercel.app/admin](https://savara-nidhi-website.vercel.app/admin)
 
-The website is running with fallback authentication and content management system.
+## 📱 Contact Information
+
+- **Phone**: 9785873004, 8529574003
+- **WhatsApp**: 919785873004
+- **Company**: सावरा Just Help Nidhi Limited
+
+## 🛠️ Development Setup
+
+### Prerequisites
+- Node.js 18+ installed
+- MongoDB Atlas account
+- Git installed
+
+### Installation
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/your-username/savara-nidhi-website.git
+cd savara-nidhi-website
+```
+
+2. **Install dependencies**
+```bash
+npm install
+```
+
+3. **Environment Setup**
+```bash
+cp .env.example .env.local
+```
+
+4. **Configure Environment Variables**
+Edit `.env.local` with your MongoDB connection string:
+```env
+MONGODB_URI=your-mongodb-connection-string
+NEXTAUTH_SECRET=your-random-secret
+NEXTAUTH_URL=http://localhost:3000
+```
+
+5. **Run Development Server**
+```bash
+npm run dev
+```
+
+## 🌐 Deployment
+
+### Vercel (Recommended)
+
+1. **Push to GitHub**
+```bash
+git add .
+git commit -m "Ready for deployment"
+git push origin main
+```
+
+2. **Deploy on Vercel**
+- Visit [vercel.com](https://vercel.com)
+- Import your GitHub repository
+- Add environment variables
+- Deploy!
+
+## 📄 License
+
+© 2025 सावरा Just Help Nidhi Limited. All rights reserved.
+
+## 👨‍💻 Contributors
+
+**Developed by**: Pallav Joshi  
+**Company**: सावरा Just Help Nidhi Limited  
+**Contact**: pallavjoshi@gmail.com
+
+---
+
+**Built with ❤️ for सावरा Just Help Nidhi Limited**
